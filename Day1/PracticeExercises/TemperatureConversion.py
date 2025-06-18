@@ -1,7 +1,7 @@
 #####     -----     TEMPERATURE CONVERSION (PRIMITIVE)     -----     #####
 
-unit = input("Is this temperature in Celsius or Fahrenheit? (C/F). ")
 temperature = float(input("Enter the temperature you want to convert: "))
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F). ")
 
 if unit.lower() == 'c':
     temperature = (temperature * 9) / 5 + 32
