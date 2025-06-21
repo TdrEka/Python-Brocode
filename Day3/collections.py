@@ -7,7 +7,19 @@ fruits = ["apple", "orange", "banana", "papaya"]
 
 print(fruits)
 print(fruits[::-1])
-print(dir(fruits))
+#print(dir(fruits))
+#print(help(fruits))
+print(len(fruits))
+print("apple" in fruits)
 
 for fruit in fruits:
     print(fruit)
+
+fruits[0] = "pineapple"
+fruits.insert(0, "apple")
+fruits.append("cherry")
+fruits.remove("apple")
+fruits.sort()
+fruits.reverse()
+print(fruits)
+
